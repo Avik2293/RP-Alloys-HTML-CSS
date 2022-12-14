@@ -28,7 +28,7 @@ body {
 
 }
 
-.menu-items h3 {
+.menu-items h4 {
     list-style: none;
     padding-right: 5px;
     font-size: 18px;
@@ -126,7 +126,7 @@ body {
     justify-content: space-between;
 }
 
-.serve-main{
+.serve-main {
     width: 100%;
 }
 
@@ -141,39 +141,41 @@ body {
 
 .up {
     -webkit-text-stroke: 1px #353535;
-     color: white;
-     position: absolute;
-     font-size: 3.5em;
-     margin-top: 3%;
-}
-.middle {
-    -webkit-text-stroke: 1px #353535;
-     color: white;
-     position: absolute;
-     font-size: 3.5em;
-     margin-top: 9%;
-     background-color: white;
-}
-.below {
-     color: black;
-     position: absolute;
-     font-size: 3.5em;
-     margin-top: 14%;
-     background-color: white;
+    color: white;
+    position: absolute;
+    font-size: 3.5em;
+    margin-top: 3%;
 }
 
-.serve-main-text{
+.middle {
+    -webkit-text-stroke: 1px #353535;
+    color: white;
+    position: absolute;
+    font-size: 3.5em;
+    margin-top: 9%;
+    background-color: white;
+}
+
+.below {
+    color: black;
+    position: absolute;
+    font-size: 3.5em;
+    margin-top: 14%;
+    background-color: white;
+}
+
+.serve-main-text {
     display: flex;
     position: absolute;
     margin-top: 22%;
 }
 
-.serve-main-text h1{
+.serve-main-text h1 {
     font-size: 50px;
     color: #f98c95;
 }
 
-.serve-main-text p{
+.serve-main-text p {
     color: #9198A0;
     display: flex;
     align-items: flex-end;
@@ -188,34 +190,34 @@ body {
     position: absolute;
     margin-top: 25%;
     border-left: 2px solid #EC2232;
-  }
-  
-  .grid-item {
+}
+
+.grid-item {
     padding: 20px;
     font-size: 20px;
     text-align: left;
     display: flex;
-  }
+}
 
-  .card-details{
+.card-details {
     display: flex;
-  }
+}
 
-  .card-details svg {
+.card-details svg {
     width: 250px;
-  }
+}
 
-  .card-details p {
+.card-details p {
     font-size: 10px;
-  }
+}
 
-  /* below banner  */
-  .below-banner-full {
+/* below banner  */
+.below-banner-full {
     position: absolute;
     margin-top: 53%;
-  }
+}
 
-  .below-banner {
+.below-banner {
     position: relative;
     max-width: 100%;
     margin: 0;
@@ -234,16 +236,16 @@ body {
     display: flex;
 }
 
-.content p{
+.content p {
     font-size: 12px;
 }
 
-.below-banner-main-svg{
+.below-banner-main-svg {
     margin-left: 30%;
     width: 10%;
 }
 
-.below-banner-card{
+.below-banner-card {
     display: flex;
     margin-top: 10%;
 }
@@ -263,7 +265,7 @@ body {
     padding: 0 5%;
 }
 
-.company h6{
+.company h6 {
     display: flex;
     justify-content: center;
     color: #E82232;
@@ -277,35 +279,35 @@ body {
     margin-left: 10%;
     margin-right: 20%;
     margin-top: 5%;
-  }
-  
-  .company-grid-item {
+}
+
+.company-grid-item {
     width: 150px;
     height: 50px;
-  }
+}
 
-  /* get-in-touch  */
-  .get-in-touch {
+/* get-in-touch  */
+.get-in-touch {
     position: absolute;
     margin-top: 140%;
     width: 100%;
     display: flex;
-  }
+}
 
-  .blue{
+.blue {
     background-color: #0E3466;
     width: 40%;
     padding: 8%;
-  }
+}
 
-  .blue h1{
+.blue h1 {
     color: white;
     border-bottom: 2px solid white;
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 3%;
-  }
+}
 
-  .input {
+.input {
     background-color: white;
     color: gray;
     padding: 10px;
@@ -313,30 +315,30 @@ body {
     display: flex;
     margin-bottom: 3%;
     width: 80%;
-  }
+}
 
-  .submit{
+.submit {
     color: white;
     background-color: #EC2232;
     padding: 15px 40px;
     border-radius: 20px;
-  }
+}
 
-  .pink{
+.pink {
     width: 50%;
     background-color: #F8F8F8;
     position: relative;
-  }
+}
 
-  .pink img{
+.pink img {
     position: absolute;
     width: 100%;
     top: 10%;
     left: -20%;
-  }
+}
 
-  /* footer  */
-  footer {
+/* footer  */
+footer {
     position: absolute;
     margin-top: 186%;
     background-color: black;
@@ -345,15 +347,260 @@ body {
     justify-content: space-between;
     padding: 3% 8%;
     width: 83%;
-  }
+}
 
-  footer li {
+footer li {
     font-size: 10px;
-  }
+}
 
 
 
 /* responsive mobile  */
 @media only screen and (max-width: 360px) {
 
+    * {
+        padding: 1px;
+    }
+
+    /* menubar  */
+    .title-img {
+        width: 120px;
+    }
+
+    .menu-items h4 {
+        font-size: 12px;
+    }
+
+    /* banner section  */
+    .container .content {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 8px;
+    }
+
+    /* smart-working-team  */
+    .smart-working-team {
+        width: 90%;
+        padding: 3% 0 3% 3%;
+    }
+
+    .team-main-text {
+        font-size: 15px;
+        padding-right: 0%;
+    }
+
+    .team-side-text {
+        padding-left: 1%;
+        font-size: 10px;
+    }
+
+    .team-bottom-card {
+        font-size: 25px;
+    }
+
+    .team-bottom-card-div {
+        width: 110px;
+    }
+
+    .team-bottom-card-div p {
+        font-size: 10px;
+    }
+
+    /* .procurement  */
+    .procurement-inside {
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .procurement-inside h1 {
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+
+    .procurement-card {
+        display: inline-block;
+    }
+
+    .procurement-each-card {
+        margin-bottom: 15px;
+        box-shadow: 5px 5px 8px #e9e5e5;
+    }
+
+    .procurement-each-card img {
+        width: 250px;
+    }
+
+    .procurement-each-card h5 {
+        padding: 5%;
+        font-size: 15px;
+    }
+
+
+    /* Serve section  */
+    .serve-section {
+        display: block;
+    }
+
+    .svg {
+        width: 40%;
+        position: relative;
+        margin-top: 25%;
+        margin-left: 28%;
+    }
+
+    .up {
+        -webkit-text-stroke: 0.5px #353535;
+        font-size: 1.5em;
+        margin-top: 1%;
+    }
+
+    .middle {
+        -webkit-text-stroke: 0.5px #353535;
+        font-size: 1.5em;
+        margin-top: 10%;
+    }
+
+    .below {
+        font-size: 1.5em;
+        margin-top: 19%;
+    }
+
+    .serve-main-text {
+        margin-top: 25%;
+    }
+
+    .serve-main-text h1 {
+        font-size: 40px;
+    }
+
+    .serve-main-text p {
+        font-size: 12px;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+        margin-left: 3%;
+        margin-top: 78%;
+        border-left: 1px solid #EC2232;
+    }
+
+    .grid-item {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .card-details svg {
+        width: 200px;
+    }
+
+
+    /* below banner  */
+    .below-banner-full {
+        margin-top: 155%;
+    }
+
+    .below-banner .content {
+        width: 85%;
+        height: 86%;
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size: 6px;
+    }
+
+    .content p {
+        font-size: 8px;
+    }
+
+    .below-banner-main-svg {
+        margin-left: 30%;
+        width: 30%;
+    }
+
+    .below-banner-card {
+        margin-top: 4%;
+    }
+
+    .below-banner-card h6 {
+        font-size: 6px;
+    }
+
+    .below-banner-card-div svg {
+        width: 60%;
+        height: 30%;
+    }
+
+    .below-banner-card-div h5 {
+        font-size: 7px;
+    }
+
+    /* company info  */
+    .company {
+        margin-top: 215%;
+        padding: 0 0%;
+    }
+
+    .company h6 {
+        font-size: 10px;
+    }
+
+    .company-grid-container {
+        gap: 5px 20px;
+        grid-template-columns: auto auto auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 3%;
+    }
+
+    .company-grid-item {
+        width: 90px;
+        height: 20px;
+    }
+
+    /* get-in-touch  */
+    .get-in-touch {
+        margin-top: 260%;
+        display: block;
+    }
+
+    .blue {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .input {
+        width: 95%;
+    }
+
+    .input h5{
+        margin-left: 2%;
+    }
+
+    .submit {
+        padding: 10px 30px;
+    }
+
+    .pink {
+        width: 100%;
+    }
+
+    .pink img {
+        width: 96%;
+        top: 1%;
+        left: 1%;
+    }
+
+    /* footer  */
+    footer {
+        margin-top: 448%;
+        padding: 2% 3%;
+        width: 94%;
+    }
+
+    footer h4, h6,i {
+        font-size: 8px;
+    }
+
+    footer li {
+        font-size: 5px;
+    }
 }
