@@ -330,6 +330,59 @@ body {
     height: 50px;
   }
 
+  /* get-in-touch  */
+  .get-in-touch {
+    position: absolute;
+    margin-top: 140%;
+    width: 100%;
+    display: flex;
+  }
+
+  .blue{
+    background-color: #0E3466;
+    width: 40%;
+    padding: 8%;
+  }
+
+  .blue h1{
+    color: white;
+    border-bottom: 2px solid white;
+    display:inline-block;
+    margin-bottom: 3%;
+  }
+
+  .input {
+    background-color: white;
+    /* color: #192437; */
+    color: gray;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    margin-bottom: 3%;
+    width: 80%;
+  }
+
+  .submit{
+    color: white;
+    background-color: #EC2232;
+    padding: 15px 40px;
+    border-radius: 20px;
+  }
+
+  .pink{
+    width: 50%;
+    background-color: #F8F8F8;
+    position: relative;
+  }
+
+  .pink img{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: -20%;
+  }
+
+
 
 
 /* responsive mobile  */
