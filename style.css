@@ -9,7 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 
-/* menubar style start  */
+/* menubar  */
 .menubar {
     color: 222222;
     display: flex;
@@ -19,13 +19,6 @@ body {
 .logo-title {
     font-size: 28.75px;
     font-weight: bold;
-
-    /* overflow: hidden; */
-    /* border-right: .10em solid #FF8D8D; */
-    /* white-space: nowrap; */
-    /* margin: 0 auto; */
-    /* letter-spacing: .4rem; */
-    /* animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite; */
 }
 
 .menu-items {
@@ -55,8 +48,6 @@ body {
 .container .content {
     position: absolute;
     top: 0;
-    /* background: rgb(0, 0, 0); */
-    /* background: rgba(0, 0, 0, 0); */
     color: white;
     width: 100%;
     padding-top: 100px;
@@ -64,26 +55,18 @@ body {
     font-size: 30px;
 }
 
+/* smart-working-team  */
 .smart-working-team {
-    /* height: 614px; */
     width: 60%;
     padding: 6% 0 6% 20%;
-    /* padding: 6% 20%; */
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 .team-main-text {
-    /* font-weight: bold; */
     font-size: 45px;
-    /* width: 60%; */
     padding-right: 20%;
 }
 
 .team-side-text {
-    /* width: 40%; */
-    /* display: inline-flex; */
-    /* justify-content: end; */
     padding-left: 60%;
 }
 
@@ -94,18 +77,13 @@ body {
 
 .team-bottom-card {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     font-size: 55px;
 }
 
+/* .procurement  */
 .procurement-img {
-
-    /* background-color: #F9F9F9; */
     width: 100%;
-    /* width: 800px; */
-    /* height: auto; */
-    /* background: gray; */
     position: absolute;
 }
 
@@ -123,12 +101,9 @@ body {
 
 .procurement-card {
     display: flex;
-    /* width: 40vw; */
 }
 
 .procurement-each-card {
-    /* width: 100%; */
-    /* border: 1px solid; */
     padding: 0;
     margin: 15px;
     box-shadow: 5px 5px 8px #e9e5e5;
@@ -145,7 +120,6 @@ body {
 
 
 /* Serve section  */
-
 .serve-section {
     display: flex;
     margin-top: 5%;
@@ -159,7 +133,6 @@ body {
 .serve {
     position: relative;
     margin-left: 20%;
-    
 }
 
 .svg {
@@ -210,7 +183,6 @@ body {
     display: grid;
     gap: 5px 10px;
     grid-template-columns: auto auto;
-    /* background-color: #2196F3; */
     margin-left: 18%;
     margin-right: 18%;
     position: absolute;
@@ -219,8 +191,6 @@ body {
   }
   
   .grid-item {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 20px;
     text-align: left;
@@ -229,7 +199,6 @@ body {
 
   .card-details{
     display: flex;
-    /* justify-content: left; */
   }
 
   .card-details svg {
@@ -237,7 +206,6 @@ body {
   }
 
   .card-details p {
-    /* width: 250px; */
     font-size: 10px;
   }
 
@@ -245,8 +213,6 @@ body {
   .below-banner-full {
     position: absolute;
     margin-top: 53%;
-    /* width: 80%; */
-    /* height: 100%; */
   }
 
   .below-banner {
@@ -258,7 +224,6 @@ body {
 .below-banner .content {
     position: absolute;
     top: 0;
-    /* background: rgb(0, 0, 0); */
     background: rgba(0, 0, 0, 0.3);
     color: white;
     width: 80%;
@@ -267,7 +232,6 @@ body {
     padding-left: 250px;
     font-size: 30px;
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .content p{
@@ -289,7 +253,6 @@ body {
 }
 
 .below-banner-card-div {
-    /* margin-right: 45px; */
     width: 150px;
 }
 
@@ -311,21 +274,12 @@ body {
     display: grid;
     gap: 15px 50px;
     grid-template-columns: auto auto auto auto auto;
-    /* background-color: #2196F3; */
     margin-left: 10%;
     margin-right: 20%;
-    /* position: absolute; */
     margin-top: 5%;
-    /* border-left: 2px solid #EC2232; */
   }
   
   .company-grid-item {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* padding: 20px; */
-    /* font-size: 20px; */
-    /* text-align: left; */
-    /* display: flex; */
     width: 150px;
     height: 50px;
   }
@@ -353,7 +307,6 @@ body {
 
   .input {
     background-color: white;
-    /* color: #192437; */
     color: gray;
     padding: 10px;
     border-radius: 3px;
@@ -382,6 +335,7 @@ body {
     left: -20%;
   }
 
+  /* footer  */
   footer {
     position: absolute;
     margin-top: 186%;
@@ -399,6 +353,7 @@ body {
 
 
 
-
 /* responsive mobile  */
-@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 360px) {
+
+}
