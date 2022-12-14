@@ -382,6 +382,21 @@ body {
     left: -20%;
   }
 
+  footer {
+    position: absolute;
+    margin-top: 186%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8%;
+    width: 83%;
+  }
+
+  footer li {
+    font-size: 10px;
+  }
+
 
 
 
