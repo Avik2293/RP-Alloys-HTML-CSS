@@ -19,7 +19,7 @@ body {
 .logo-title {
     font-size: 28.75px;
     font-weight: bold;
-    
+
     /* overflow: hidden; */
     /* border-right: .10em solid #FF8D8D; */
     /* white-space: nowrap; */
@@ -27,6 +27,10 @@ body {
     /* letter-spacing: .4rem; */
     /* animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite; */
 }
+
+/* .title-img {
+
+} */
 
 .menu-items {
     display: flex;
@@ -66,13 +70,10 @@ body {
 .smart-working-team {
     /* height: 614px; */
     width: 60%;
-    padding: 6% 20%;
+    padding: 6% 0 6% 20%;
+    /* padding: 6% 20%; */
     /* display: flex; */
     /* justify-content: center; */
-}
-
-.team-details {
-    /* display: flex; */
 }
 
 .team-main-text {
@@ -101,8 +102,51 @@ body {
     font-size: 55px;
 }
 
+.procurement-img {
+
+    /* background-color: #F9F9F9; */
+    width: 100%;
+    /* width: 800px; */
+    /* height: auto; */
+    /* background: gray; */
+    position: absolute;
+}
+
+.procurement-inside {
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.procurement-inside h1 {
+    font-size: 48px;
+    margin-bottom: 7%;
+}
+
+.procurement-card {
+    display: flex;
+    /* width: 40vw; */
+}
+
+.procurement-each-card {
+    /* width: 100%; */
+    /* border: 1px solid; */
+    padding: 0;
+    margin: 15px;
+    box-shadow: 5px 5px 8px #e9e5e5;
+}
+
+.procurement-each-card img {
+    width: 300px;
+}
+
+.procurement-each-card h5 {
+    padding: 15%;
+    font-size: 20px;
+}
+
+
 
 /* responsive mobile  */
-@media only screen and (max-width: 360px) {
-
-}
+@media only screen and (max-width: 360px) {}
